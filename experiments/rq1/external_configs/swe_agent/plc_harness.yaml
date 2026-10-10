@@ -1,0 +1,74 @@
+# SWE-agent configuration for PLC test harness generation (RQ1 Baseline)
+# This config is designed to evaluate general-purpose coding agents on PLC-specific tasks
+#
+# Usage:
+#   1. Ensure SWE-agent is installed and path is set via --external-lib swe-agent=/path/to/swe-agent
+#   2. Copy this file to <swe-agent>/config/plc_harness.yaml
+#   3. Run: python -m experiments.run rq1 --baseline swe-agent --table1
+
+agent:
+  templates:
+    system_template: |-
+      You are an expert software engineer familiar with C programming, compilers (clang, gcc), and build systems. You can interact with a Linux shell and edit files to solve programming tasks. Use the bash tool to run commands and the str_replace_editor to view/create/edit files. When you have completed the task and verified your solution, call the submit tool.
+
+    instance_template: |-
+      {{problem_statement}}
+
+      (Open file: {{open_file}})
+      (Current directory: {{working_dir}})
+      bash-$
+
+    next_step_template: |-
+      {{observation}}
+      (Open file: {{open_file}})
+      (Current directory: {{working_dir}})
+      bash-$
+
+    next_step_no_output_template: |-
+      Your command ran successfully and did not produce any output.
+      (Open file: {{open_file}})
+      (Current directory: {{working_dir}})
+      bash-$
+
+  tools:
+    env_variables:
+      WINDOW: 100
+      OVERLAP: 2
+      CURRENT_LINE: 0
+      CURRENT_FILE: ""
+      PAGER: cat
+      MANL_PAGER: cat
+      LESS: -R
+      PIP_PROGRESS_BAR: 'off'
+      TQDM_DISABLE: '1'
+      GIT_PAGER: cat
+
+    bundles:
+      - path: tools/registry
+      - path: tools/windowed
+      - path: tools/search
+      - path: tools/windowed_edit_replace
+      - path: tools/submit
+
+    enable_bash_tool: true
+    execution_timeout: 60
+    install_timeout: 300
+
+    parse_function:
+      type: function_calling
+
+  model:
+    name: openai/qwen2.5-32B-local
+    api_base: http://localhost:8002/v1
+    per_instance_cost_limit: 0
+    total_cost_limit: 0
+    max_input_tokens: 30000
+    temperature: 0.0
+    retry:
+      retries: 5
+      min_wait: 5
+      max_wait: 30
+
+  history_processors:
+    - type: last_n_observations
+      n: 5

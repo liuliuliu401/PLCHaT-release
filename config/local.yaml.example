@@ -1,0 +1,52 @@
+# ============================================
+# PLCHaT Local Configuration Template
+# ============================================
+# Copy this file to config/local.yaml and customize for your environment.
+#
+# Quick start:
+#   1. Uncomment ONE model profile below (set use_profile)
+#   2. Set your API key in environment variable
+#   3. Run: python -m plchat --help
+
+# Quick profile selection (uncomment ONE)
+# use_profile: "local_qwen_14b"
+# use_profile: "deepseek"
+# use_profile: "openai"
+
+# ============================================
+# Custom LLM Configuration
+# ============================================
+# If use_profile is not set, configure llm section manually
+llm:
+  provider: "local"                # local, deepseek, openai, qwen
+  model: "qwen3-14B-local"
+  base_url: "http://localhost:8003/v1"
+  api_key: "local"                 # For local models, use "local"
+
+# ============================================
+# Custom Execution Paths
+# ============================================
+execution:
+  matiec_path: "/usr/local/lib/matiec"
+  clang_path: "clang-18"
+
+# ============================================
+# Custom Cache Directories
+# ============================================
+cache:
+  compilation:
+    dir: "temp/compilation_cache"
+  coverage:
+    dir: "temp/coverage_cache"
+
+# ============================================
+# Direct LLM Configuration (RQ2 Experiments)
+# ============================================
+# For Direct LLM baseline in RQ2 experiments
+tools:
+  direct_llm:
+    api_key: ""                    # Set here or use OPENAI_API_KEY env var
+    model: "deepseek-v3"
+    base_url: "https://api.deepseek.com"
+    max_cycles: 30
+    timeout_sec: 300

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "task": "999_trafficLight",
+    "total_cases": 1,
+    "max_cycles": 18,
+    "physical_time_sec": 0.9,
+    "generator": "AFL_Baseline",
+    "source_exp_id": "AFL_QUEUE_000065",
+    "timestamp": 1779420343.36956
+  },
+  "test_cases": [
+    {
+      "exp_id": "999_trafficLight_afl_1200cycles",
+      "target_st_path": "benchmark/benchmark_260113/benchmark_raw/999_trafficLight/plc_st_files/999_trafficLight.st",
+      "total_cycles": 18,
+      "scan_cycle_ms": 50,
+      "sparse_timeline": {
+        "0": {
+          "temp_ped_ew_raw_val": "1"
+        },
+        "1": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "3": {
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "4": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1"
+        },
+        "6": {
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "7": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "9": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "11": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "12": {
+          "temp_ped_ns_raw_val": "1"
+        },
+        "13": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "14": {
+          "sys_enable_val": "1"
+        },
+        "15": {
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "16": {
+          "sys_enable_val": "1",
+          "temp_ped_ns_raw_val": "1",
+          "temp_ped_ew_raw_val": "1"
+        },
+        "17": {
+          "sys_enable_val": "1"
+        }
+      },
+      "harness_input": ""
+    }
+  ]
+}

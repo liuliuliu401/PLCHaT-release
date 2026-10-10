@@ -1,0 +1,206 @@
+# ============================================
+# PLCHaT Default Configuration
+# ============================================
+# This file contains the default configuration for PLCHaT artifact.
+# For local customization, copy config/local.yaml.example to local.yaml
+#
+# Environment variables override these settings:
+#   PLCHAT_MODEL, PLCHAT_LLM_PROVIDER, PLCHAT_LLM_API_KEY, PLCHAT_LLM_BASE_URL
+#   MATIEC_PATH, CC
+
+# ============================================
+# LLM Configuration
+# ============================================
+llm:
+  # Default provider: DeepSeek (affordable, good performance)
+  provider: "deepseek"
+
+  # Model configuration
+  model: "deepseek-chat"
+  api_key: ""                      # From env: DEEPSEEK_API_KEY or PLCHAT_LLM_API_KEY
+  base_url: "https://api.deepseek.com"
+
+  # Generation parameters
+  temperature: 0.3
+  max_tokens: 4096
+  timeout: 120
+
+# ============================================
+# Model Profiles
+# ============================================
+# Pre-configured profiles for common models. Use with --model <profile_name>
+model_profiles:
+  deepseek:
+    provider: "deepseek"
+    model: "deepseek-chat"
+    base_url: "https://api.deepseek.com"
+    api_key: ""                    # From env: DEEPSEEK_API_KEY
+
+  deepseek_v3:
+    provider: "deepseek"
+    model: "deepseek-v3"
+    base_url: "https://api.deepseek.com"
+    api_key: ""
+
+  openai:
+    provider: "openai"
+    model: "gpt-4o-mini"
+    base_url: "https://api.openai.com/v1"
+    api_key: ""                    # From env: OPENAI_API_KEY
+
+  openai_gpt4:
+    provider: "openai"
+    model: "gpt-4o"
+    base_url: "https://api.openai.com/v1"
+    api_key: ""
+
+  qwen_cloud:
+    provider: "qwen"
+    model: "qwen-plus"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key: ""                    # From env: DASHSCOPE_API_KEY
+
+  local_qwen_14b:
+    provider: "local"
+    model: "qwen3-14B-local"
+    base_url: "http://localhost:8003/v1"
+    api_key: "local"
+
+  local_qwen_32b:
+    provider: "local"
+    model: "qwen3-32b-local"
+    base_url: "http://localhost:8002/v1"
+    api_key: "local"
+
+# ============================================
+# Agent Model Assignments
+# ============================================
+agents:
+  planner:
+    model_profile: "deepseek"
+    temperature: 0.1
+    max_iterations: 10
+
+  generator:
+    model_profile: "deepseek"
+    temperature: 0.3
+    max_tool_calls: 5
+
+  evaluator:
+    model_profile: "deepseek"
+    temperature: 0.3
+    enable_coverage: true
+
+  router:
+    model_profile: "deepseek"
+    temperature: 0.2
+
+# ============================================
+# Execution Environment
+# ============================================
+execution:
+  # Compiler paths
+  matiec_path: ""                 # From env: MATIEC_PATH
+  clang_path: "clang-18"
+  clang_version: "18"
+
+  # Runtime settings
+  scan_cycle_ms: 50
+  max_cycles_per_case: 30
+  timeout_sec: 300
+
+  # Coverage settings
+  coverage_format: "llvm"         # llvm or gcov
+  coverage_working_dir: "temp/coverage"
+
+# ============================================
+# Experiment Configuration
+# ============================================
+experiments:
+  # Base directory for experiment results (relative to PROJECT_ROOT or absolute path)
+  # Options: "results" (local) or "/tmp/plchat_results" (system temp)
+  results_dir: "output"
+
+  # Temporary working directory for experiments
+  # Options: "temp" (local) or "/tmp/plchat_temp" (system temp)
+  temp_dir: "temp"
+
+  # Auto-cleanup temp files after experiment completion
+  cleanup_temp: false
+
+# ============================================
+# Cache Configuration
+# ============================================
+cache:
+  compilation:
+    enabled: true
+    dir: "temp/compilation_cache"
+    max_size_mb: 500
+
+  coverage:
+    enabled: true
+    dir: "temp/coverage_cache"
+    max_entries: 1000
+
+  schema:
+    enabled: true
+    dir: "temp/schema_cache"
+
+  harness:
+    enabled: true
+    dir: "temp/harness_cache"
+
+# ============================================
+# Tool Configuration
+# ============================================
+tools:
+  # DSE (Dynamic Symbolic Execution)
+  dse:
+    enabled: true
+    max_depth: 5
+    timeout_sec: 120
+    z3_timeout: 5000               # per-query timeout in ms
+
+  # AFL++ (Coverage-Guided Fuzzing)
+  afl:
+    enabled: true
+    max_runtime_sec: 300
+    max_cycles: 30
+    max_eval_cases: 50
+
+  # Random Fuzzer
+  random:
+    enabled: true
+    budget_sec: 60
+    batch_size: 10
+
+  # Direct LLM
+  direct_llm:
+    enabled: true
+    max_cycles: 30
+    timeout_sec: 300
+
+# ============================================
+# Benchmark Configuration
+# ============================================
+benchmark:
+  root_dir: "benchmark/benchmark_260113"
+
+  # Default settings
+  max_rounds: 20
+  max_stagnation: 5
+  timeout_minutes: 60
+
+  # Output settings
+  output_dir: "results"
+  save_session: true
+  save_agent_logs: true
+
+# ============================================
+# Logging Configuration
+# ============================================
+logging:
+  level: "INFO"                    # DEBUG, INFO, WARNING, ERROR
+  format: "console"                # console, json, both
+  file: "logs/plchat.log"
+  rotation: "10 MB"

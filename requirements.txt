@@ -1,0 +1,18 @@
+# PLCHaT Artifact - Minimal Dependencies
+# Only core dependencies required for reproduction
+
+# Core dependencies
+pydantic>=2.0
+z3-solver>=4.8
+pyyaml>=5.0
+jinja2>=3.0
+lark>=1.1
+requests>=2.28
+
+# LLM integration
+langchain-core>=0.1
+langchain-openai>=0.1
+
+# Optional - for experiment reporting
+pandas>=1.5
+numpy>=1.24

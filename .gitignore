@@ -1,0 +1,54 @@
+# Temporary and generated files
+__pycache__/
+*.py[cod]
+*.profraw
+*.profdata
+
+# Runtime outputs
+/temp/
+/output/
+/results/
+/logs/
+/execution/
+
+# Sensitive local configuration
+config/local.yaml
+*.local.yaml
+.env
+*_secret*
+
+# Dataset checkout (companion PLCHaT-dataset repository)
+/benchmark/
+
+# MatIEC compiler outputs
+POUS.c
+POUS.h
+VARIABLES.csv
+LOCATED_VARIABLES.h
+
+# Python packaging and environments
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.vscode/
+.idea/
+*.bak
+*.swp
+*~
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local assistant state
+.claude/

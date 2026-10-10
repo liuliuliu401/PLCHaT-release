@@ -1,0 +1,6023 @@
+{
+  "metadata": {
+    "task": "999",
+    "total_cases": 1,
+    "max_cycles": 1200,
+    "physical_time_sec": 60.0,
+    "generator": "RandomCaseGenerator (original algorithm)",
+    "line_coverage": "68.35%",
+    "branch_coverage": "37.96%",
+    "timestamp": 1779356788.1097503
+  },
+  "test_cases": [
+    {
+      "exp_id": "999_trafficLight_1200cycles",
+      "target_st_path": "benchmark/benchmark_260113/benchmark_raw/999_trafficLight/plc_st_files/999_trafficLight.st",
+      "total_cycles": 1200,
+      "scan_cycle_ms": 50,
+      "sparse_timeline": {
+        "0": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "2": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "3": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "4": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "5": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "6": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "7": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "8": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "9": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "10": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "11": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "12": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "13": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "14": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "15": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "16": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "17": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "18": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "19": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "20": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "21": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "22": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "23": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "24": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "25": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "26": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "27": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "28": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "29": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "30": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "31": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "32": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "33": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "34": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "35": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "36": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "37": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "38": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "39": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "40": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "41": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "42": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "43": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "44": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "45": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "46": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "47": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "48": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "49": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "50": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "51": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "52": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "53": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "54": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "55": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "56": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "57": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "58": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "59": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "60": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "61": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "62": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "63": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "64": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "65": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "66": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "67": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "68": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "69": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "70": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "71": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "72": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "73": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "74": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "75": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "76": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "77": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "78": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "79": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "80": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "81": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "82": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "83": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "84": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "85": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "86": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "87": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "88": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "89": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "90": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "91": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "92": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "93": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "94": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "95": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "96": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "97": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "98": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "99": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "100": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "101": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "102": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "103": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "104": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "105": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "106": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "107": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "108": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "109": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "110": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "111": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "112": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "113": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "114": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "115": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "116": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "117": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "118": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "119": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "120": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "121": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "122": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "123": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "124": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "125": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "126": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "127": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "128": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "129": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "130": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "131": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "132": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "133": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "134": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "135": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "136": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "137": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "138": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "139": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "140": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "141": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "142": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "143": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "144": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "145": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "146": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "147": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "148": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "149": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "150": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "151": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "152": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "153": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "154": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "155": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "156": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "157": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "158": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "159": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "160": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "161": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "162": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "163": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "164": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "165": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "166": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "167": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "168": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "169": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "170": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "171": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "172": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "173": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "174": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "175": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "176": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "177": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "178": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "179": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "180": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "181": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "182": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "183": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "184": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "185": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "186": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "187": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "188": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "189": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "190": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "191": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "192": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "193": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "194": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "195": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "196": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "197": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "198": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "199": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "200": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "201": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "202": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "203": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "204": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "205": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "206": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "207": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "208": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "209": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "210": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "211": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "212": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "213": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "214": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "215": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "216": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "217": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "218": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "219": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "220": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "221": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "222": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "223": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "224": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "225": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "226": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "227": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "228": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "229": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "230": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "231": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "232": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "233": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "234": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "235": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "236": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "237": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "238": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "239": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "240": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "241": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "242": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "243": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "244": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "245": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "246": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "247": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "248": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "249": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "250": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "251": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "252": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "253": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "254": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "255": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "256": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "257": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "258": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "259": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "260": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "261": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "262": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "263": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "264": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "265": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "266": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "267": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "268": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "269": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "270": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "271": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "272": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "273": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "274": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "275": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "276": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "277": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "278": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "279": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "280": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "281": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "282": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "283": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "284": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "285": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "286": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "287": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "288": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "289": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "290": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "291": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "292": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "293": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "294": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "295": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "296": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "297": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "298": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "299": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "300": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "301": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "302": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "303": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "304": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "305": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "306": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "307": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "308": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "309": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "310": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "311": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "312": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "313": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "314": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "315": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "316": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "317": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "318": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "319": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "320": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "321": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "322": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "323": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "324": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "325": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "326": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "327": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "328": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "329": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "330": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "331": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "332": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "333": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "334": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "335": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "336": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "337": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "338": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "339": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "340": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "341": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "342": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "343": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "344": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "345": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "346": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "347": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "348": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "349": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "350": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "351": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "352": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "353": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "354": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "355": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "356": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "357": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "358": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "359": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "360": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "361": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "362": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "363": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "364": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "365": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "366": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "367": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "368": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "369": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "370": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "371": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "372": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "373": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "374": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "375": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "376": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "377": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "378": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "379": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "380": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "381": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "382": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "383": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "384": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "385": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "386": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "387": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "388": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "389": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "390": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "391": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "392": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "393": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "394": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "395": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "396": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "397": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "398": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "399": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "400": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "401": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "402": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "403": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "404": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "405": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "406": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "407": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "408": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "409": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "410": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "411": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "412": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "413": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "414": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "415": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "416": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "417": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "418": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "419": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "420": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "421": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "422": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "423": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "424": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "425": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "426": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "427": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "428": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "429": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "430": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "431": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "432": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "433": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "434": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "435": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "436": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "437": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "438": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "439": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "440": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "441": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "442": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "443": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "444": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "445": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "446": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "447": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "448": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "449": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "450": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "451": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "452": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "453": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "454": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "455": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "456": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "457": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "458": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "459": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "460": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "461": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "462": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "463": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "464": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "465": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "466": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "467": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "468": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "469": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "470": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "471": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "472": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "473": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "474": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "475": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "476": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "477": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "478": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "479": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "480": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "481": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "482": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "483": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "484": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "485": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "486": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "487": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "488": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "489": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "490": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "491": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "492": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "493": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "494": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "495": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "496": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "497": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "498": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "499": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "500": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "501": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "502": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "503": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "504": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "505": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "506": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "507": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "508": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "509": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "510": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "511": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "512": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "513": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "514": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "515": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "516": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "517": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "518": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "519": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "520": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "521": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "522": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "523": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "524": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "525": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "526": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "527": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "528": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "529": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "530": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "531": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "532": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "533": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "534": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "535": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "536": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "537": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "538": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "539": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "540": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "541": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "542": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "543": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "544": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "545": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "546": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "547": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "548": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "549": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "550": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "551": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "552": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "553": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "554": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "555": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "556": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "557": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "558": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "559": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "560": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "561": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "562": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "563": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "564": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "565": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "566": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "567": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "568": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "569": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "570": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "571": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "572": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "573": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "574": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "575": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "576": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "577": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "578": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "579": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "580": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "581": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "582": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "583": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "584": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "585": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "586": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "587": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "588": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "589": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "590": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "591": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "592": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "593": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "594": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "595": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "596": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "597": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "598": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "599": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "600": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "601": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "602": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "603": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "604": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "605": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "606": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "607": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "608": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "609": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "610": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "611": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "612": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "613": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "614": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "615": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "616": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "617": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "618": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "619": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "620": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "621": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "622": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "623": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "624": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "625": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "626": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "627": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "628": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "629": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "630": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "631": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "632": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "633": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "634": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "635": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "636": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "637": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "638": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "639": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "640": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "641": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "642": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "643": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "644": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "645": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "646": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "647": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "648": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "649": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "650": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "651": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "652": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "653": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "654": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "655": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "656": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "657": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "658": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "659": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "660": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "661": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "662": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "663": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "664": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "665": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "666": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "667": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "668": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "669": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "670": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "671": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "672": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "673": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "674": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "675": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "676": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "677": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "678": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "679": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "680": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "681": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "682": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "683": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "684": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "685": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "686": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "687": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "688": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "689": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "690": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "691": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "692": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "693": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "694": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "695": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "696": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "697": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "698": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "699": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "700": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "701": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "702": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "703": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "704": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "705": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "706": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "707": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "708": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "709": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "710": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "711": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "712": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "713": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "714": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "715": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "716": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "717": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "718": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "719": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "720": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "721": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "722": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "723": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "724": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "725": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "726": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "727": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "728": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "729": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "730": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "731": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "732": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "733": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "734": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "735": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "736": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "737": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "738": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "739": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "740": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "741": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "742": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "743": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "744": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "745": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "746": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "747": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "748": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "749": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "750": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "751": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "752": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "753": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "754": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "755": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "756": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "757": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "758": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "759": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "760": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "761": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "762": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "763": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "764": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "765": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "766": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "767": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "768": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "769": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "770": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "771": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "772": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "773": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "774": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "775": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "776": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "777": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "778": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "779": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "780": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "781": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "782": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "783": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "784": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "785": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "786": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "787": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "788": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "789": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "790": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "791": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "792": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "793": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "794": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "795": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "796": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "797": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "798": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "799": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "800": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "801": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "802": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "803": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "804": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "805": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "806": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "807": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "808": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "809": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "810": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "811": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "812": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "813": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "814": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "815": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "816": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "817": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "818": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "819": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "820": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "821": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "822": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "823": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "824": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "825": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "826": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "827": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "828": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "829": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "830": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "831": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "832": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "833": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "834": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "835": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "836": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "837": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "838": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "839": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "840": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "841": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "842": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "843": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "844": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "845": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "846": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "847": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "848": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "849": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "850": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "851": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "852": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "853": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "854": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "855": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "856": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "857": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "858": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "859": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "860": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "861": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "862": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "863": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "864": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "865": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "866": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "867": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "868": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "869": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "870": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "871": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "872": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "873": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "874": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "875": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "876": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "877": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "878": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "879": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "880": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "881": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "882": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "883": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "884": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "885": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "886": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "887": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "888": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "889": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "890": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "891": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "892": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "893": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "894": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "895": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "896": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "897": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "898": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "899": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "900": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "901": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "902": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "903": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "904": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "905": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "906": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "907": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "908": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "909": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "910": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "911": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "912": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "913": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "914": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "915": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "916": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "917": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "918": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "919": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "920": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "921": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "922": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "923": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "924": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "925": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "926": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "927": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "928": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "929": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "930": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "931": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "932": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "933": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "934": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "935": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "936": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "937": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "938": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "939": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "940": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "941": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "942": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "943": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "944": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "945": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "946": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "947": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "948": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "949": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "950": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "951": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "952": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "953": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "954": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "955": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "956": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "957": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "958": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "959": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "960": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "961": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "962": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "963": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "964": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "965": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "966": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "967": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "968": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "969": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "970": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "971": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "972": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "973": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "974": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "975": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "976": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "977": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "978": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "979": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "980": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "981": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "982": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "983": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "984": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "985": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "986": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "987": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "988": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "989": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "990": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "991": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "992": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "993": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "994": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "995": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "996": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "997": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "998": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "999": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1000": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1001": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1002": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1003": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1004": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1005": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1006": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1007": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1008": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1009": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1010": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1011": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1012": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1013": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1014": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1015": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1016": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1017": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1018": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1019": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1020": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1021": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1022": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1023": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1024": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1025": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1026": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1027": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1028": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1029": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1030": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1031": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1032": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1033": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1034": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1035": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1036": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1037": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1038": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1039": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1040": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1041": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1042": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1043": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1044": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1045": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1046": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1047": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1048": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1049": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1050": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1051": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1052": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1053": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1054": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1055": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1056": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1057": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1058": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1059": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1060": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1061": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1062": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1063": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1064": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1065": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1066": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1067": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1068": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1069": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1070": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1071": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1072": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1073": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1074": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1075": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1076": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1077": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1078": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1079": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1080": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1081": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1082": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1083": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1084": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1085": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1086": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1087": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1088": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1089": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1090": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1091": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1092": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1093": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1094": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1095": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1096": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1097": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1098": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1099": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1100": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1101": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1102": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1103": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1104": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1105": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1106": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1107": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1108": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1109": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1110": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1111": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1112": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1113": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1114": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1115": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1116": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1117": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1118": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1119": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1120": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1121": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1122": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1123": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1124": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1125": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1126": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1127": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1128": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1129": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1130": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1131": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1132": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1133": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1134": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1135": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1136": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1137": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1138": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1139": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1140": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1141": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1142": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1143": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1144": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1145": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1146": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1147": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1148": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1149": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1150": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1151": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1152": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1153": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1154": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1155": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1156": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1157": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1158": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1159": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1160": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1161": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1162": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1163": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1164": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1165": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1166": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1167": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1168": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1169": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1170": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1171": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1172": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1173": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1174": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1175": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1176": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1177": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1178": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1179": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1180": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1181": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1182": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1183": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1184": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1185": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1186": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1187": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1188": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1189": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1190": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1191": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1192": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1193": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1194": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1195": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1196": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 1,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1197": {
+          "sys_enable_val": 0,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 0
+        },
+        "1198": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        },
+        "1199": {
+          "sys_enable_val": 1,
+          "temp_ped_ns_raw_val": 0,
+          "temp_ped_ew_raw_val": 1
+        }
+      },
+      "harness_input": "0 1 1\n0 1 1\n1 0 1\n1 0 1\n1 0 1\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n0 1 0\n1 0 0\n0 0 1\n1 0 1\n1 1 0\n0 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n0 1 1\n0 0 1\n1 0 1\n1 1 0\n0 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 0\n1 0 1\n1 1 0\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 0\n1 1 0\n1 1 1\n1 0 0\n1 1 1\n0 1 1\n1 1 0\n1 1 1\n1 0 1\n0 0 1\n0 0 1\n1 1 1\n1 1 0\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 0\n0 1 0\n0 0 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n1 1 1\n0 0 0\n1 1 0\n1 1 1\n0 0 0\n0 1 1\n0 0 1\n0 0 0\n0 1 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 0\n1 1 0\n1 1 1\n1 1 0\n1 0 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 1 0\n0 1 1\n0 1 1\n0 1 0\n0 1 0\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 0 1\n0 1 1\n0 1 1\n0 0 0\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 1\n0 0 1\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 0\n1 0 1\n0 1 0\n1 1 0\n0 0 1\n0 1 0\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n0 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n0 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 0 1\n1 1 1\n1 0 0\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n0 1 1\n0 1 1\n1 0 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 0\n1 1 0\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n1 1 0\n0 1 0\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 0 0\n0 1 1\n1 0 0\n1 1 1\n1 0 1\n1 1 0\n1 0 0\n0 0 1\n0 1 1\n1 0 0\n0 1 1\n1 1 0\n0 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 0 0\n1 0 1\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 0 0\n0 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 0 0\n1 0 1\n1 1 1\n1 0 1\n1 1 0\n1 1 1\n1 0 0\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 1 0\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 1 0\n0 0 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 1 1\n1 1 0\n0 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n1 1 1\n1 0 0\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n0 1 0\n0 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 0 1\n0 1 1\n0 1 0\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 0\n0 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n0 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n1 0 0\n0 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 0\n0 1 1\n1 1 1\n1 0 0\n0 0 1\n1 1 1\n1 1 1\n1 0 1\n1 0 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 0\n0 1 1\n0 1 0\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n0 0 0\n1 1 0\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n0 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 0 1\n1 1 1\n0 1 1\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n0 1 0\n1 0 1\n1 1 1\n1 0 1\n1 1 1\n0 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 0 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n0 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n0 0 0\n0 1 0\n1 1 1\n1 1 1\n0 0 0\n1 1 1\n0 1 1\n1 1 0\n1 0 1\n1 0 1\n1 1 0\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 0\n1 0 0\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 0 0\n1 1 0\n0 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n0 1 1\n1 1 0\n0 1 1\n1 1 1\n1 0 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 0\n0 1 1\n0 0 1\n0 0 1\n1 0 1\n1 0 0\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n1 1 0\n1 1 1\n0 1 1\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n0 1 1\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n0 0 0\n1 1 0\n1 0 0\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 0\n0 1 1\n0 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 0 1\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 1 1\n0 1 1\n1 0 0\n0 1 1\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n0 1 1\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 0\n1 1 0\n1 0 1\n0 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 0\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n0 1 1\n0 1 1\n1 0 1\n1 1 1\n1 0 0\n0 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n1 0 1\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n1 0 0\n1 1 1\n1 0 1\n1 0 1\n1 1 1\n1 0 0\n0 1 1\n1 1 1\n1 0 1\n0 1 0\n1 1 1\n1 1 0\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 0\n0 1 1\n1 1 1\n1 0 1\n1 1 1\n1 0 0\n1 1 0\n1 0 1\n0 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 0 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n0 1 0\n1 1 1\n1 0 1\n1 0 1\n1 0 1\n0 0 1\n1 1 1\n1 0 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n1 0 1\n1 0 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n0 0 1\n1 0 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 0 1\n1 0 1\n1 0 1\n0 1 1\n1 1 1\n0 0 1\n1 1 1\n0 0 1\n0 1 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n0 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n0 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n1 1 1\n1 1 1\n1 1 1\n1 0 1\n0 0 1\n1 1 0\n1 0 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 1 0\n1 1 1\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n0 1 0\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n0 1 0\n1 1 1\n1 1 1\n1 1 1\n1 0 0\n0 1 1\n0 0 0\n0 1 0\n1 1 1\n1 0 1\n0 1 1\n1 0 1\n1 1 0\n1 1 1\n1 1 0\n1 0 1\n1 0 1\n1 0 1\n1 1 0\n1 0 1\n1 1 1\n1 1 1\n1 0 1\n1 0 0\n0 1 1\n1 1 1\n0 1 1\n0 1 1\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n0 0 1\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 0\n0 1 1\n0 1 0\n0 1 1\n1 1 1\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n1 1 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 1\n1 1 1\n0 0 1\n1 1 0\n1 1 1\n1 1 1\n0 1 1\n1 0 1\n0 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 1\n1 0 1\n0 1 1\n1 1 1\n1 1 1\n0 1 1\n1 1 0\n1 0 1\n1 1 0\n1 1 1\n1 0 1\n1 1 1\n1 1 0\n1 1 1\n1 1 1\n0 0 0\n1 0 1\n1 0 1"
+    }
+  ]
+}

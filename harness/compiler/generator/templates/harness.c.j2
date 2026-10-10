@@ -1,0 +1,199 @@
+/* Auto-generated Harness by PLCHaT */
+/* DO NOT EDIT MANUALLY */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <string.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <time.h>
+#include "iec_types_all.h"
+#include "POUS.h"
+
+TIME __CURRENT_TIME;
+BOOL __DEBUG = 0;
+bool silent_mode = false;
+#define SCAN_CYCLE_MS 50  // PLC scan cycle: 50ms
+
+{% set input_vars = filtered_input_vars %}
+{% set output_vars = filtered_outputs %}
+{% set temp_vars = filtered_temps %}
+
+/* Expanded scanf format string and temp variables */
+{% set scanf_formats = [] %}
+{% set scanf_args = [] %}
+{% set struct_vars = [] %}
+{% for var in input_vars %}
+{% if var.is_struct %}
+{% set _ = struct_vars.append(var) %}
+{% elif var.is_array %}
+{% for i in range(var.array_size) %}
+{% set _ = scanf_formats.append(var.scanf_format) %}
+{% set _ = scanf_args.append('&temp_' + var.name + '_' + i|string) %}
+{% endfor %}
+{% else %}
+{% set _ = scanf_formats.append(var.scanf_format) %}
+{% set _ = scanf_args.append('&temp_' + var.name) %}
+{% endif %}
+{% endfor %}
+{% set scanf_format_str = scanf_formats | join(' ') %}
+{% set total_inputs = scanf_formats | length %}
+
+/* Temp variable declarations */
+{% for var in input_vars %}
+{% if var.is_array %}
+{% for i in range(var.array_size) %}
+{{ var.c_type }} temp_{{ var.name }}_{{ i }};
+{% endfor %}
+{% else %}
+{{ var.c_type }} temp_{{ var.name }};
+{% endif %}
+{% endfor %}
+
+void read_inputs({{ pou_info.pou_name_upper }}* instance) {
+    char line[4096];
+    if (fgets(line, sizeof(line), stdin) == NULL) exit(0);
+    if (line[0] == '#' || line[0] == '\n' || line[0] == '\r') return;
+
+{% if total_inputs == 0 and struct_vars|length == 0 %}
+    /* No scalar or struct inputs */
+    (void)line;
+{% else %}
+{% if total_inputs > 0 %}
+    /* Parse scalar inputs */
+    int parsed = sscanf(line, "{{ scanf_format_str }}",
+    {% for arg in scanf_args %}
+        {{ arg }}{{ "," if not loop.last else "" }}
+    {% endfor %}
+    );
+    if (parsed < {{ total_inputs }}) return;
+{% endif %}
+{% if struct_vars|length > 0 %}
+    /* Zero-init struct/array inputs (MatIEC types, not scanf-able) */
+    {% for var in struct_vars %}
+    memset(&temp_{{ var.name }}, 0, sizeof(temp_{{ var.name }}));
+    {% endfor %}
+{% endif %}
+{% endif %}
+
+    /* Map parsed values to instance */
+    {% for var in input_vars %}
+    {% if var.is_array %}
+    /* {{ var.name }}: ARRAY[{{ var.array_lo }}..{{ var.array_hi }}] OF {{ var.iec_type }} */
+    {% for i in range(var.array_size) %}
+    {% if var.iec_type == "BOOL" %}
+    instance->{{ var.pou_name }}.value.table[{{ i }}] = temp_{{ var.name }}_{{ i }} ? 1 : 0;
+    {% else %}
+    instance->{{ var.pou_name }}.value.table[{{ i }}] = temp_{{ var.name }}_{{ i }};
+    {% endif %}
+    {% endfor %}
+    {% else %}
+    /* {{ var.name }}: {{ var.iec_type }} */
+    {% if var.iec_type == "BOOL" %}
+    instance->{{ var.pou_name }}.value = temp_{{ var.name }} ? 1 : 0;
+    {% else %}
+    instance->{{ var.pou_name }}.value = temp_{{ var.name }};
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+}
+
+void print_fb_state({{ pou_info.pou_name_upper }}* instance, int cycle) {
+    if (silent_mode) return;
+
+    printf("\n--- Cycle %d ---\n", cycle);
+
+    /* Inputs */
+    {% for var in filtered_inputs %}
+    {% if var.is_array %}
+    printf("{{ var.name }}: [");
+    for (int i = 0; i < {{ var.array_size }}; i++) {
+        {% if var.iec_type == "BOOL" %}
+        printf("%s%s", instance->{{ var.pou_name }}.value.table[i] ? "T" : "F",
+               (i < {{ var.array_size - 1 }}) ? " " : "");
+        {% else %}
+        printf("{{ var.printf_format }}%s", {{ var.printf_cast }}instance->{{ var.pou_name }}.value.table[i],
+               (i < {{ var.array_size - 1 }}) ? " " : "");
+        {% endif %}
+    }
+    printf("]\n");
+    {% else %}
+    {% if var.iec_type == "BOOL" %}
+    printf("{{ var.name }}: %s\n", instance->{{ var.pou_name }}.value ? "TRUE" : "FALSE");
+    {% else %}
+    printf("{{ var.name }}: {{ var.printf_format }}\n", {{ var.printf_cast }}instance->{{ var.pou_name }}.value);
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    /* Outputs */
+    {% for var in filtered_outputs %}
+    {% if var.is_array %}
+    printf("{{ var.name }}: [");
+    for (int i = 0; i < {{ var.array_size }}; i++) {
+        {% if var.iec_type == "BOOL" %}
+        printf("%s%s", instance->{{ var.pou_name }}.value.table[i] ? "T" : "F",
+               (i < {{ var.array_size - 1 }}) ? " " : "");
+        {% else %}
+        printf("{{ var.printf_format }}%s", {{ var.printf_cast }}instance->{{ var.pou_name }}.value.table[i],
+               (i < {{ var.array_size - 1 }}) ? " " : "");
+        {% endif %}
+    }
+    printf("]\n");
+    {% else %}
+    {% if var.iec_type == "BOOL" %}
+    printf("{{ var.name }}: %s\n", instance->{{ var.pou_name }}.value ? "TRUE" : "FALSE");
+    {% else %}
+    printf("{{ var.name }}: {{ var.printf_format }}\n", {{ var.printf_cast }}instance->{{ var.pou_name }}.value);
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% if filtered_intermediate %}
+    /* Intermediate State (VAR_IN_OUT + VAR + VAR_TEMP) */
+    {% for var in filtered_intermediate[:20] %}
+    {% if var.is_array %}
+    printf("{{ var.name }}: [");
+    for (int i = 0; i < {{ var.array_size }}; i++) {
+        printf("{{ var.printf_format }}%s", {{ var.printf_cast }}instance->{{ var.pou_name }}.value.table[i],
+               (i < {{ var.array_size - 1 }}) ? " " : "");
+    }
+    printf("]\n");
+    {% else %}
+    printf("{{ var.name }}: {{ var.printf_format }}\n", {{ var.printf_cast }}instance->{{ var.pou_name }}.value);
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+}
+
+int main(int argc, char** argv) {
+    for (int i = 1; i < argc; i++) {
+        if (strcmp(argv[i], "--silent") == 0) silent_mode = true;
+    }
+
+    {{ pou_info.pou_name_upper }} instance;
+    /* Zero the instance before init: matiec __SET_VAR skips writes when the
+       FORCE flag byte holds garbage, silently skipping initialization. */
+    memset(&instance, 0, sizeof({{ pou_info.pou_name_upper }}));
+    {{ pou_info.pou_name_upper }}_init__(&instance, FALSE);
+
+    // Initialize simulated time — avoids wall-clock dependency for TON timers
+    __CURRENT_TIME = __time_to_timespec(1, 0, 0, 0, 0, 0);
+
+    int cycle = 0;
+    while (1) {
+        read_inputs(&instance);
+        cycle++;
+
+        // Increment simulated time by scan cycle (50ms)
+        // __time_to_timespec(sign, mseconds, seconds, minutes, hours, days)
+        __CURRENT_TIME = __time_add(__CURRENT_TIME, __time_to_timespec(1, SCAN_CYCLE_MS, 0, 0, 0, 0));
+
+        {{ pou_info.pou_name_upper }}_body__(&instance);
+        print_fb_state(&instance, cycle);
+        fflush(stdout);
+    }
+
+    return 0;
+}
